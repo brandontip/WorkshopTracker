@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   background-color: #050411;
+  background: gradient(#161b2d, #0e131e);
+  /*background-image: url("Assets/bg.jpg");*/
+  background-size: 1920px 1080px;;
+  color: #eee1e3;
+}
+
+.offenseform {
+  padding: 1rem;
+  max-width: 30rem;
+  margin: 2rem auto;
+  border-radius: 4px;
+  border: 1px solid #0f29db;
+  background: #253862;
+  /*background: linear-gradient(180deg, #0a101a, #050411);*/
+}
+
+.input-group {
+  display: flex;
+}
+
+.offenseform label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #b6bace;
+
+
+}
+
+.offenseform input {
+  width: 70%;
+  padding: 0.25rem;
+  border: 1px solid #0f29db;
+  border-radius: 0.25rem;
+  background-color: #b6bace;
+  color: #30497e;
+  font-size: 1rem;
+}
+
+.form {
+  padding: 1rem;
+  max-width: 100rem;
+  margin: 2rem auto;
+  border-radius: 4px;
+  border: 1px solid #b6b6b6;
+  background: #444444;
+  text-align: center;
+  /*background: linear-gradient(180deg, #0a101a, #050411);*/
+}
+
+.input-group {
+  display: flex;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #b6bace;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.form input {
+  width: 100%;
+  padding: 0.25rem;
+  border: 1px solid #000000;
+  border-radius: 0.25rem;
+  background-color: #b6bace;
+  color: #0a101a;
+  font-size: 1rem;
+  text-align: center;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.defenseform {
+  padding: 1rem;
+  max-width: 30rem;
+  margin: 2rem auto;
+  border-radius: 4px;
+  border: 1px solid #db0f45;
+  background: #581f30;
+  /*background: linear-gradient(180deg, #0a101a, #050411);*/
+}
+
+.input-group {
+  display: flex;
+}
+
+.defenseform label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #b6bace;
+}
+
+.defenseform input {
+  width: 50%;
+  padding: 0.25rem;
+  border: 1px solid #db0f45;
+  border-radius: 0.25rem;
+  background-color: #ceb6b6;
+  color: #7e3033;
+  font-size: 1rem;
+}
+
+.utilityform {
+  padding: 1rem;
+  max-width: 30rem;
+  margin: 2rem auto;
+  border-radius: 4px;
+  border: 1px solid #dbb90f;
+  background: #4d4925;
+  /*background: linear-gradient(180deg, #0a101a, #050411);*/
+}
+
+.input-group {
+  display: flex;
+}
+
+.utilityform label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #b6bace;
+}
+
+.utilityform input {
+  width: 50%;
+  padding: 0.25rem;
+  border: 1px solid #dbca0f;
+  border-radius: 0.25rem;
+  background-color: #cec9b6;
+  color: #4d4a1d;
+  font-size: 1rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  background: linear-gradient(180deg, #581f30, #49171d);
+  color: #e9c2c9;
+  font-family: 'Roboto Condensed', sans-serif;
+  cursor: pointer;
+}
+
+.buttonAlt {
+  font-family: 'Roboto Condensed', sans-serif;
+  border: none;
+  background: transparent;
+  color: #e9c2c8;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: linear-gradient(180deg, #531b2c, #3c1121);
+}
+
+.buttonAlt:hover {
+  background: transparent;
+  color: #e1919a;
+}
+
+
+.result {
+  max-width: 50rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  table-layout: fixed;
+  border-spacing: 1rem;
+  text-align: right;
+}
+
+.result thead {
+  font-size: 0.7rem;
+  color: #e68392;
+}
+
+.result tbody {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.85rem;
+  color: #e9c2c8;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
